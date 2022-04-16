@@ -9,7 +9,7 @@ export const App = () => {
         <>
             <Nav />
             <Pozadina>                
-                    <div>
+                    <div className={Styled.centriraj}>
                         <h1 className={Styled.naslov}>Atletski klub Sloboda Novi Grad</h1>
                         <p className={Styled.paragraf}>Okupljanje što većeg broja sportista, stručnih sportskih radnika i drugih zainteresovanih lica, radi omasovljavanja, popularizacije, razvoja i unapređenja atletskog sporta</p>
                         <Button text={"POGLEDAJ VIŠE"} />

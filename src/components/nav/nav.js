@@ -9,9 +9,10 @@ export const Nav = () => {
                     {/* <p className={Styled.Grad}>Novi Grad</p> */}
                 </div>
                 <div className={Styled.menu}>
-                    <p>o nama</p>
-                    <p>o nama</p>
-                    <p>o nama</p>
+                    <p>Početna</p>
+                    <p>Aktuelno</p>
+                    <p>O nama</p>
+                    <p>Kontakt</p>
                 </div>
             </div>
         </nav>

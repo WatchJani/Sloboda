@@ -46,6 +46,12 @@ nav {
   }
 
   .Container{
-    padding: 0 1em;
+    padding: 0 4em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Container{
+    padding: 0 2em;
   }
 }
