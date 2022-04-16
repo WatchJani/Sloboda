@@ -1,8 +1,9 @@
 .Section {
   width: 100%;
-  height: 810px;
+  min-height: 810px;
   background-image: url("./bg.jpg");
   background-size: cover;
+  height: calc(100vh - 74px);
 }
 
 .EfekatSaStraneDesno {

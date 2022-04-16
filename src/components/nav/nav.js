@@ -5,7 +5,7 @@ export const Nav = () => {
         <nav>
             <div className={Styled.Container}>
                 <div>
-                    <h1 className={Styled.Naslov}>ATLETSKI KLUB SLOBODA</h1>
+                    <img className={Styled.logo} src="./images/logo.svg" alt="logo"/>
                     {/* <p className={Styled.Grad}>Novi Grad</p> */}
                 </div>
                 <div className={Styled.menu}>

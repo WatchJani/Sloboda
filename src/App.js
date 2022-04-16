@@ -8,18 +8,15 @@ export const App = () => {
     return (
         <>
             <Nav />
-            <Pozadina>
-                
+            <Pozadina>                
                     <div>
-                        <h1 className={Styled.naslov}>The 2019 Nike Chinese Collection</h1>
-                        <p className={Styled.paragraf}>Two styles of graphics are used to represent this throughout the collection: The first is a traditional geometric quilt pattern that
-                            is influenced by all 12 Chinese Zodiac symbols; the second is a mosaic pattern of the 12 symbols.</p>
-                        <Button text={"LEARN MORE"} />
+                        <h1 className={Styled.naslov}>Atletski klub Sloboda Novi Grad</h1>
+                        <p className={Styled.paragraf}>Okupljanje što većeg broja sportista, stručnih sportskih radnika i drugih zainteresovanih lica, radi omasovljavanja, popularizacije, razvoja i unapređenja atletskog sporta</p>
+                        <Button text={"POGLEDAJ VIŠE"} />
                     </div>
                     <div className={Styled.Trkac}>
-                        <img className={Styled.SlikaTrkaca} src="./images/trkac.png" />
+                        <img className={Styled.SlikaTrkaca} src="./images/trkac.png" alt="trkac"/>
                     </div>
-                
             </Pozadina>
             <Section2 />
         </>
